@@ -4,13 +4,13 @@
 // 	return alert("1");
 // }
 
-// increment.addEventListener("click",callme);
+// increment.addEventListener("click",callme);  
 
 let increment = document.getElementById("incrementBtn");
 let counter = document.getElementById("counter");
 
 function callme() {
-    alert(parseInt(counter.innerText)+1);
+    alert(parseInt(counter.innerText)-1);   
 }
 
 increment.addEventListener("click", callme);
